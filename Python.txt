@@ -1,0 +1,29 @@
+print()  //打印
+input()  //主要作用是让用户输入某个内容并接收它
+format() //实现插入效果{}占位符,print('你叫{}，今年{}岁了'.format(name,age))
+range()  //使用 range(x) 函数，可以生成一个从 0 到 x-1 的整数序列，比如我们想打印 0 到 9 的数，可以这样写：
+for a in range(10): 
+	print(a)
+
+
+//if语法
+
+a = input("我看到了: ")
+if a == "苹果":   
+    print("买四个{}吧".format(a))
+    
+elif a == "香蕉":
+    print("买八根{}吧".format(a))
+else:
+    print("勉强买点{}吧".format(a))
+
+
+
+//while循环语法
+a = 1
+while a <= 10:  ##同样注意冒号和语句块缩进
+    print(a)
+    a = a + 1
+
+break  //表示停止当前循环
+continue  //表示跳过当前循环轮次，去执行下一轮循环
